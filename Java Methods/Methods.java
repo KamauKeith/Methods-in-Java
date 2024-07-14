@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 
 public static void main(String[] args){
+
+    //Method for entering marks
     Scanner scanner = new Scanner(System.in);
 
     System.out.println("Enter The First Number: ");
@@ -13,6 +15,7 @@ public static void main(String[] args){
     System.out.println("Enter The Third Number: ");
     int tnum = scanner.nextInt();
 
+    //Determining the largest number
     int largest;
     if (fnum >= snum && fnum >= tnum) {
         largest = fnum;
